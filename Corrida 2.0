@@ -3,8 +3,8 @@
   createCanvas(400, 400);
 }
 
-let xJogador = [0, 0, 0, 0];
-let yJogador = [75, 150, 225, 300];
+let xJogador = [0, 0, 0, 0]; // Jogador1
+let yJogador = [75, 150, 225, 300]; // Jogador2
 let jogador = ["🍟", "🌆", "😃", "💜"];
 let teclas = ["a", "v", "l", "m"];
 let quantidade = jogador.length;
