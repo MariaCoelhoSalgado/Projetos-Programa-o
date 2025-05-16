@@ -3,8 +3,8 @@
   createCanvas(400, 400);
 }
 
-let xJogador = [0, 0, 0, 0]; // Jogador1
-let yJogador = [75, 150, 225, 300]; // Jogador2
+let xJogador = [0, 0, 0, 0]; //JOGADOR1
+let yJogador = [75, 150, 225, 300]; // JOGADOR2
 let jogador = ["🍟", "🌆", "😃", "💜"];
 let teclas = ["a", "v", "l", "m"];
 let quantidade = jogador.length;
@@ -18,7 +18,7 @@ function draw() {
 
 function ativaJogo() {
   if (focused == true) {
-    background("#D2EBB5");
+    background("#D2EBB5"); //DEIXE O FUNDO VERDE QUANDO CLICADO
   } else {
     background("rgb(238,178,178)");
   }
